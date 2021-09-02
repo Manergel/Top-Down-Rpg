@@ -3,9 +3,9 @@ using UnityEngine;
 public class Portal : Collidable
 {
     public string[] sceneNames;
-    protected override void OnCollide(Collider2D coll)
+    protected override void OnCollide(Collider2D collision)
     {
-        if (coll.gameObject.GetComponent<Player>() != null)
+        if (collision.gameObject.GetComponent<Player>() != null)
         {
             //Teleport the player
             GameManager.instance.SaveState();
