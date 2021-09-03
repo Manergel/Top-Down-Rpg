@@ -6,9 +6,9 @@ public class Collectable : Collidable
 {
     protected bool collected;
 
-    protected override void OnCollide(Collider2D coll)
+    protected override void OnCollide(Collider2D collision)
     {
-        if (coll.name == "Player")
+        if (collision.gameObject.GetComponent<Player>() != null)
         {
             OnCollect();
         }
