@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 850258190}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 602218011
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6146700129834819302, guid: 92f0c70a6c959974daa4310372638ff6, type: 3}
+  m_Sprite: {fileID: -6146700129834819302, guid: ca677cb47dab6f740bc415630efa9875, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.9375, y: 1.3125}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,8 +98,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee713367ea67ee74d8958a81233bb60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  hitpoint: 10
+  maxHitpoint: 10
+  pushRecoverySpeed: 0.2
   rb: {fileID: 5951965647048536569}
+  capsuleColl: {fileID: 850258191}
+  moveSpeed: 5
   animator: {fileID: 850258190}
 --- !u!50 &5951965647048536569
 Rigidbody2D:

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
-guid: 92f0c70a6c959974daa4310372638ff6
+guid: ca677cb47dab6f740bc415630efa9875
 TextureImporter:
   internalIDToNameTable:
+  - first:
+      213: -6588234438219925006
+    second: Hero2_0
+  - first:
+      213: 3313011500525434132
+    second: Hero2_1
+  - first:
+      213: 3967441128522726944
+    second: Hero2_2
+  - first:
+      213: -3804862685359821958
+    second: Hero2_3
+  - first:
+      213: -5941168258322381647
+    second: Hero2_4
+  - first:
+      213: 1305114718993605250
+    second: Hero2_5
+  - first:
+      213: 8950643971071020934
+    second: Hero2_6
+  - first:
+      213: -6179565445007006653
+    second: Hero2_7
   - first:
       213: -6146700129834819302
     second: Hero_0
@@ -72,7 +96,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -111,18 +135,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -130,10 +142,10 @@ TextureImporter:
       name: Hero_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 15
-        height: 21
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +163,10 @@ TextureImporter:
       name: Hero_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 15
-        height: 21
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +184,10 @@ TextureImporter:
       name: Hero_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 15
-        height: 21
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +205,10 @@ TextureImporter:
       name: Hero_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 15
-        height: 21
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +226,10 @@ TextureImporter:
       name: Hero_4
       rect:
         serializedVersion: 2
-        x: 81
-        y: 48
-        width: 15
-        height: 21
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +247,10 @@ TextureImporter:
       name: Hero_5
       rect:
         serializedVersion: 2
-        x: 97
-        y: 48
-        width: 15
-        height: 21
+        x: 80
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +268,10 @@ TextureImporter:
       name: Hero_6
       rect:
         serializedVersion: 2
-        x: 113
-        y: 48
-        width: 15
-        height: 21
+        x: 96
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +289,10 @@ TextureImporter:
       name: Hero_7
       rect:
         serializedVersion: 2
-        x: 129
-        y: 48
-        width: 15
-        height: 21
+        x: 112
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
