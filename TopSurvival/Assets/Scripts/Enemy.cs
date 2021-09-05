@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class Enemy : Fighter
+public class Enemy : MonoBehaviour
 {
-    public Animator animator;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private CapsuleCollider2D capsuleColl;
+    [SerializeField] private Animator animator;
 
     [SerializeField] private Patrol patrol;
 
@@ -17,14 +17,17 @@ public class Enemy : Fighter
 
 
 
-    public void Start()
+    private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        capsuleColl = GetComponent<CapsuleCollider2D>();
         patrol = GetComponent<Patrol>();
         aiDestinationSetter = GetComponent<AIDestinationSetter>();
         trigger = GetComponent<BoxCollider2D>();
+
     }
 
-    public void FixedUpdate()
+    private void FixedUpdate()
     {
         Movemenet();
     }
@@ -53,13 +56,13 @@ public class Enemy : Fighter
     }
 
     //Если персонаж с компонентом Player попадает в триггер, то following = true, и наоборот = false, если он выходит из триггера.
-    public void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<Player>() != null)
             Following = true;
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<Player>() != null)
             Following = false;

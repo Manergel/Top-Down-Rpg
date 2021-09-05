@@ -83,7 +83,6 @@ GameObject:
   - component: {fileID: 7285371751823633334}
   - component: {fileID: 7285371751823633335}
   - component: {fileID: 7285371751823633289}
-  - component: {fileID: 7285371751823633332}
   - component: {fileID: 7285371751823633288}
   m_Layer: 0
   m_Name: Chest
@@ -184,34 +183,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.002398}
   m_EdgeRadius: 0
---- !u!114 &7285371751823633332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7285371751823633333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99cb474c0307a9042a781cebfb0d6fa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  animator: {fileID: 7285371751823633288}
-  pesosAmount: 10
 --- !u!95 &7285371751823633288
 Animator:
   serializedVersion: 3

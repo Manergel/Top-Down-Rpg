@@ -1,16 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Sign : MonoBehaviour
 {
-    public GameObject dialogueBox;
-    public Text dialogueText;
-    public string dialogue;
-    public bool playerInRange;
+    [SerializeField] private GameObject dialogueBox;
+    [SerializeField] private Text dialogueText;
+    [SerializeField] private string dialogue;
+    private bool playerInRange;
 
-    public void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {

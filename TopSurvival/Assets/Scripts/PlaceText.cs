@@ -1,15 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlaceText : MonoBehaviour
 {
-    public bool needText;
-    public string placeName;
-    public GameObject text;
-    public Text placeText;
-    public float secondsText = 4f;
+    [SerializeField] private string placeName;
+    [SerializeField] private GameObject text;
+    [SerializeField] private Text placeText;
+    [SerializeField] private float secondsText = 4f;
+    private bool needText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
