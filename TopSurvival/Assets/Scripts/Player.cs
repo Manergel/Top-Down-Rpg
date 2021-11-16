@@ -32,7 +32,6 @@ public class Player : MonoBehaviour
 
         animator.SetFloat("velocityX", mx);
         animator.SetFloat("velocityY", my);
-        //animator.SetFloat("Speed", movement.sqrMagnitude);
 
         movement = new Vector2(mx, my).normalized;
     }

@@ -8,7 +8,7 @@ public class PlaceText : MonoBehaviour
     [SerializeField] private GameObject text;
     [SerializeField] private Text placeText;
     [SerializeField] private float secondsText = 4f;
-    private bool needText;
+    [SerializeField] private bool needText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
